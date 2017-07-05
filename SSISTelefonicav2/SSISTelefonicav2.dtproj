@@ -26,27 +26,27 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">RIGO-SISTEMAS</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA1QCxN6LYokC3lF4Z1po4bgAAAAACAAAAAAAQZgAAAAEAACAAAACP2CXEC702viLIA+KA1ONP/ztk5EQXbIwxj5O0J/rWkwAAAAAOgAAAAAIAACAAAACokJWwByBuppILb8jiD8akqM3QBzi8E6ZP8HV+LZ5lLJAAAABc0YZKmXSyKO1pTIixk/eFQv3q2N/4apq0Vein5F1X8t2lJDCkbyfaMXT6xTZii/Me+4OCvFIOHCCq5kzfXT5FiIHLPSYxRNjLSSevJSvthkKD03ESCc1D13fOR32F0y6gfFfxY7rrkHVpjxoEzQYzXpMFvvPR1JjzzLnMA5aMyqLJV3rddZBXRIasx2qn5tJAAAAAVQUYVq7YMzxNSOTigsg8ZuZ5oWoymzBz27IE3ni4r0DQIFZIyJqE7N8GPPgtNYXXP45pVy5M3yF7M5snURj87w==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA1QCxN6LYokC3lF4Z1po4bgAAAAACAAAAAAAQZgAAAAEAACAAAABK2BP2L+vvpURoSz1n8PH6Durv2OSRlx/g7xVWAyWc7AAAAAAOgAAAAAIAACAAAAD7iYv/1unrVM6oCpdwPkSCkia3NsWfWnlJ2XQ7Gq1sy5AAAAA1BGlpZ6gbm/4hrn+xdv9s2NwAZAEepm7OWLgTjd5ztJNCz8mLCv+P+22NW2f1pAa2m4SpjMvvK4GaS1TCc5XP0b+Dj64dcc835H6zWDNUFeBNKxruzbRC2Fscpb4KFYjPcE2wkeZjrYu7PlIXJHoCRNm+lcDLxm6nkzJEHsL9hIxqERlkrKJu4YGX9TzEPX9AAAAAb0QqTNvVLYcqhGeTfTVwOEDrW5evEAHrEFpHdn0B/4qwwAfwKu+xS3ci4E4UqVeBQVXRHXv5ZekA2wLbR6JY/Q==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
-          <SSIS:Package SSIS:Name="Package.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="LoadDataDialyPackage.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers />
         <SSIS:DeploymentInfo>
           <SSIS:ProjectConnectionParameters />
           <SSIS:PackageInfo>
-            <SSIS:PackageMetaData SSIS:Name="Package.dtsx">
+            <SSIS:PackageMetaData SSIS:Name="LoadDataDialyPackage.dtsx">
               <SSIS:Properties>
-                <SSIS:Property SSIS:Name="ID">{DAEB49F6-A8BD-4281-8B28-1959D0D85646}</SSIS:Property>
-                <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
+                <SSIS:Property SSIS:Name="ID">{6918E4A2-94C8-402F-B9C5-3A4CBDB072A2}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">LoadDataDialyPackage</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">4</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{9F0BE463-59EC-4ED2-9BDB-B0AE45C480C9}</SSIS:Property>
-                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{615C6125-2739-427C-B261-7A1678192D8C}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">6</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
                 <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
@@ -69,7 +69,7 @@
         <ConnectionProviderMappings />
         <ConnectionSecurityMappings />
         <DatabaseStorageLocations />
-        <TargetServerVersion>SQLServer2016</TargetServerVersion>
+        <TargetServerVersion>SQLServer2012</TargetServerVersion>
         <ParameterConfigurationValues />
       </Options>
     </Configuration>
